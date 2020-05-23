@@ -69,6 +69,6 @@ def predict(request):
     crop = c_values[int(cn2_classifier(input_data))]
     #ends here
     
-    pesticide="abcd"
+    pesticide="wxyz"
 
     return render(request,'predict.html',{'nitrogen':nitrogen, 'phosphorus':phosphorus, 'potassium':potassium, 'pH_value':pH_value, 'season':season, 'district':district, 'soil_quality':soil_quality, 'crop':crop, 'pesticide':pesticide})
