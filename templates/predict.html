@@ -1,0 +1,47 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Farmvice</title>
+  <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' %}">
+<link rel='stylesheet' href="{% static 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' %}">
+<link rel="stylesheet" href="{% static './style.css' %}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel='shortcut icon' type='image/x-icon' href="{% static 'Farmvice_logo.ico' %}" />
+<div class="container">
+ <img src="{% static 'Farmvice_logo.png' %}" alt="Farmvice" class="center"> 
+
+<h4>
+
+ Nitrogen: {{nitrogen}}
+<br><br>
+ Phosphorus: {{phosphorus}}
+ <br><br>
+ Potassium: {{potassium}} 
+ <br><br>
+ pH value: {{pH_value}}
+ <br><br>
+ Season: {{season}} 
+ <br><br>
+ District: {{district}} 
+ <br><br>
+ Soil Quality: {{soil_quality}}
+ <br><br>
+ Suggested crop: {{crop}}
+ <br><br>
+ Suggested Pesticide: {{pesticide}}
+
+</h4>
+
+</div>
+<!-- partial -->
+  <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' %}"></script>
+  <script  src="{% static './script.js' %}"></script>
+
+</body>
+</html>

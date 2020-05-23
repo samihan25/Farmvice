@@ -1,0 +1,106 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Farmvice</title>
+  <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' %}">
+  <link rel='stylesheet'
+    href="{% static 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static './style.css' %}">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <link rel='shortcut icon' type='image/x-icon' href="{% static 'Farmvice_logo.ico' %}" />
+  <div class="container">
+    <img src="{% static 'Farmvice_logo.png' %}" alt="Farmvice" class="center">
+    <form action="predict" method="post">
+
+      {% csrf_token %}
+
+      <div class="row">
+
+        <h4>Nitrogen:</h4>
+          <input type="text" class="form-control" name="nitrogen" aria-describedby="Nitrogen_Help" required>
+          <small id="Nitrogen_Help" class="form-text text-muted">Enter tested soil's Nitrogen value</small>
+
+        <h4>Phosphorus:</h4>
+          <input type="text" class="form-control" name="phosphorus" aria-describedby="Phosphorous_Help" required>
+          <small id="Phosphorous_Help" class="form-text text-muted">Enter tested soil's Phosphorous value</small>
+
+        <h4>Potassium:</h4>
+          <input type="text" class="form-control" name="potassium" aria-describedby="Potassium_Help" required>
+          <small id="Phosphorous_Help" class="form-text text-muted">Enter tested soil's Potassium value</small>
+
+        <h4>PH Value</h4>
+          <input type="text" class="form-control" name="pH_value" aria-describedby="pH_value_Help" required>
+          <small id="pH_value_Help" class="form-text text-muted">Enter tested soil's pH_value value</small>
+
+      </div>
+
+      <div class="row">
+        <h4>Season</h4>
+        <select class="form-control" name="season" id="season" required>
+          <option value="">Select Season</option>
+          <option value="Kharif">Kharif</option>
+          <option value="Rabi">Rabi</option>
+          <option value="Summer">Summer</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <h4>District</h4>
+        <select class="form-control" name="district" id="district" required>
+          <option value="">Select District</option>
+          <option value="AHMEDNAGAR">AHMEDNAGAR</option>
+          <option value="AKOLA">AKOLA</option>
+          <option value="AMRAVATI">AMRAVATI</option>
+          <option value="AURANGABAD">AURANGABAD</option>
+          <option value="BEED">BEED</option>
+          <option value="BHANDARA">BHANDARA</option>
+          <option value="BULDHANA">BULDHANA</option>
+          <option value="CHANDRAPUR">CHANDRAPUR</option>
+          <option value="DHULE">DHULE</option>
+          <option value="GADCHIROLI">GADCHIROLI</option>
+          <option value="GONDIA">GONDIA</option>
+          <option value="HINGOLI">HINGOLI</option>
+          <option value="JALGAON">JALGAON</option>
+          <option value="JALNA">JALNA</option>
+          <option value="KOLHAPUR">KOLHAPUR</option>
+          <option value="LATUR">LATUR</option>
+          <option value="NAGPUR">NAGPUR</option>
+          <option value="NANDED">NANDED</option>
+          <option value="NANDURBAR">NANDURBAR</option>
+          <option value="NASHIK">NASHIK</option>
+          <option value="OSMANABAD">OSMANABAD</option>
+          <option value="PALGHAR">PALGHAR</option>
+          <option value="PARBHANI">PARBHANI</option>
+          <option value="PUNE">PUNE</option>
+          <option value="RAIGAD">RAIGAD</option>
+          <option value="RATNAGIRI">RATNAGIRI</option>
+          <option value="SANGLI">SANGLI</option>
+          <option value="SATARA">SATARA</option>
+          <option value="SINDHUDURG">SINDHUDURG</option>
+          <option value="SOLAPUR">SOLAPUR</option>
+          <option value="THANE">THANE</option>
+          <option value="WARDHA">WARDHA</option>
+          <option value="WASHIM">WASHIM</option>
+          <option value="YAVATMAL">YAVATMAL</option>
+        </select>
+      </div>
+      <br><br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+  </div>
+  <!-- partial -->
+  <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' %}"></script>
+  <script src="{% static './script.js' %}"></script>
+
+</body>
+
+</html>

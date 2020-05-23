@@ -1,0 +1,588 @@
+District_Name	Season	Soil Quality	pH 4-4.5	pH 4.5-5	pH 5-5.5	pH 5.5-6	pH 6-6.5	pH 6.5-7	pH 7.7.5	Crop
+discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete	discrete
+										class
+AHMEDNAGAR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+AHMEDNAGAR	Kharif	Low	1	1	1	1	1	1	0	Bajra
+AHMEDNAGAR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+AHMEDNAGAR	Kharif	High	0	0	0	0	1	0	0	Cotton
+AHMEDNAGAR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+AHMEDNAGAR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+AHMEDNAGAR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+AHMEDNAGAR	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+AHMEDNAGAR	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+AHMEDNAGAR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+AHMEDNAGAR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+AHMEDNAGAR	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+AHMEDNAGAR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+AHMEDNAGAR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+AHMEDNAGAR	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+AHMEDNAGAR	Rabi	High	0	0	0	1	1	0	0	Safflower
+AHMEDNAGAR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+AHMEDNAGAR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+AHMEDNAGAR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+AHMEDNAGAR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+AHMEDNAGAR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+AHMEDNAGAR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+AHMEDNAGAR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+AKOLA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+AKOLA	Kharif	Low	1	1	1	1	1	1	0	Bajra
+AKOLA	Kharif	High	0	0	0	0	1	0	0	Cotton
+AKOLA	Kharif	Low	0	0	0	0	1	1	1	Jowar
+AKOLA	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+AKOLA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+AKOLA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+AKOLA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+AKOLA	Rabi	High	0	0	0	1	1	0	0	Safflower
+AKOLA	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+AKOLA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+AKOLA	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+AMRAVATI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+AMRAVATI	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+AMRAVATI	Kharif	High	0	0	0	0	1	0	0	Cotton
+AMRAVATI	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+AMRAVATI	Kharif	Low	0	0	0	0	1	1	1	Jowar
+AMRAVATI	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+AMRAVATI	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+AMRAVATI	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+AMRAVATI	Kharif	High	0	0	0	1	1	0	0	Soyabean
+AMRAVATI	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+AMRAVATI	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+AMRAVATI	Rabi	Low	0	0	0	0	1	1	1	Jowar
+AMRAVATI	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+AMRAVATI	Rabi	High	0	0	0	1	1	0	0	Safflower
+AMRAVATI	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+AMRAVATI	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+AMRAVATI	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+AMRAVATI	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+AMRAVATI	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+AMRAVATI	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+AURANGABAD	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+AURANGABAD	Kharif	Low	1	1	1	1	1	1	0	Bajra
+AURANGABAD	Kharif	High	0	0	0	0	1	0	0	Cotton
+AURANGABAD	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+AURANGABAD	Kharif	Low	0	0	0	0	1	1	1	Jowar
+AURANGABAD	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+AURANGABAD	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+AURANGABAD	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+AURANGABAD	Kharif	High	0	0	0	1	1	0	0	Soyabean
+AURANGABAD	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+AURANGABAD	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+AURANGABAD	Rabi	Low	0	0	0	0	1	1	1	Jowar
+AURANGABAD	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+AURANGABAD	Rabi	High	0	0	0	1	1	0	0	Safflower
+AURANGABAD	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+AURANGABAD	Summer	Moderate	0	0	0	1	1	1	0	Maize
+AURANGABAD	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+AURANGABAD	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+AURANGABAD	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+BEED	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+BEED	Kharif	Low	1	1	1	1	1	1	0	Bajra
+BEED	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+BEED	Kharif	High	0	0	0	0	1	0	0	Cotton
+BEED	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+BEED	Kharif	Low	0	0	0	0	1	1	1	Jowar
+BEED	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+BEED	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+BEED	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+BEED	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+BEED	Kharif	High	0	0	0	1	1	0	0	Soyabean
+BEED	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+BEED	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+BEED	Rabi	Low	0	0	0	0	1	1	1	Jowar
+BEED	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+BEED	Rabi	High	0	0	0	1	1	0	0	Safflower
+BEED	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+BEED	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+BEED	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+BEED	Summer	Moderate	0	0	0	1	1	1	0	Maize
+BEED	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+BEED	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+BEED	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+BHANDARA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+BHANDARA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+BHANDARA	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+BHANDARA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+BHANDARA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+BHANDARA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+BHANDARA	Summer	Moderate	0	0	0	1	1	0	0	Rice
+BHANDARA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+BHANDARA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+BHANDARA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+BULDHANA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+BULDHANA	Kharif	Low	1	1	1	1	1	1	0	Bajra
+BULDHANA	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+BULDHANA	Kharif	High	0	0	0	0	1	0	0	Cotton
+BULDHANA	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+BULDHANA	Kharif	Low	0	0	0	0	1	1	1	Jowar
+BULDHANA	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+BULDHANA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+BULDHANA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+BULDHANA	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+BULDHANA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+BULDHANA	Rabi	Low	0	0	0	0	1	1	1	Jowar
+BULDHANA	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+BULDHANA	Rabi	High	0	0	0	1	1	0	0	Safflower
+BULDHANA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+BULDHANA	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+BULDHANA	Summer	Moderate	0	0	0	1	1	1	0	Maize
+BULDHANA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+BULDHANA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+BULDHANA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+CHANDRAPUR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+CHANDRAPUR	Kharif	High	0	0	0	0	1	0	0	Cotton
+CHANDRAPUR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+CHANDRAPUR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+CHANDRAPUR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+CHANDRAPUR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+CHANDRAPUR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+CHANDRAPUR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+CHANDRAPUR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+CHANDRAPUR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+CHANDRAPUR	Summer	Moderate	0	0	0	1	1	0	0	Rice
+CHANDRAPUR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+CHANDRAPUR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+CHANDRAPUR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+DHULE	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+DHULE	Kharif	Low	1	1	1	1	1	1	0	Bajra
+DHULE	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+DHULE	Kharif	High	0	0	0	0	1	0	0	Cotton
+DHULE	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+DHULE	Kharif	Low	0	0	0	0	1	1	1	Jowar
+DHULE	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+DHULE	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+DHULE	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+DHULE	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+DHULE	Kharif	High	0	0	0	1	1	0	0	Soyabean
+DHULE	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+DHULE	Rabi	Low	0	0	0	0	1	1	1	Jowar
+DHULE	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+DHULE	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+DHULE	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+DHULE	Summer	Moderate	0	0	0	1	1	1	0	Maize
+DHULE	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+DHULE	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+DHULE	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+GADCHIROLI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+GADCHIROLI	Kharif	High	0	0	0	0	1	0	0	Cotton
+GADCHIROLI	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+GADCHIROLI	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+GADCHIROLI	Kharif	High	0	0	0	1	1	0	0	Soyabean
+GADCHIROLI	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+GADCHIROLI	Rabi	Low	0	0	0	0	1	1	1	Jowar
+GADCHIROLI	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+GADCHIROLI	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+GADCHIROLI	Summer	Moderate	0	0	0	1	1	0	0	Rice
+GADCHIROLI	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+GADCHIROLI	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+GADCHIROLI	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+GONDIA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+GONDIA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+GONDIA	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+GONDIA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+GONDIA	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+GONDIA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+GONDIA	Summer	Moderate	0	0	0	1	1	1	0	Maize
+GONDIA	Summer	Moderate	0	0	0	1	1	0	0	Rice
+GONDIA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+GONDIA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+GONDIA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+HINGOLI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+HINGOLI	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+HINGOLI	Kharif	High	0	0	0	0	1	0	0	Cotton
+HINGOLI	Kharif	Low	0	0	0	0	1	1	1	Jowar
+HINGOLI	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+HINGOLI	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+HINGOLI	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+HINGOLI	Kharif	High	0	0	0	1	1	0	0	Soyabean
+HINGOLI	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+HINGOLI	Rabi	Low	0	0	0	0	1	1	1	Jowar
+HINGOLI	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+HINGOLI	Rabi	High	0	0	0	1	1	0	0	Safflower
+HINGOLI	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+HINGOLI	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+HINGOLI	Summer	Moderate	0	0	0	1	1	1	0	Maize
+HINGOLI	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+HINGOLI	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+HINGOLI	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+JALGAON	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+JALGAON	Kharif	Low	1	1	1	1	1	1	0	Bajra
+JALGAON	Kharif	High	0	0	0	0	1	0	0	Cotton
+JALGAON	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+JALGAON	Kharif	Low	0	0	0	0	1	1	1	Jowar
+JALGAON	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+JALGAON	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+JALGAON	Kharif	High	0	0	0	1	1	0	0	Soyabean
+JALGAON	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+JALGAON	Rabi	Low	0	0	0	0	1	1	1	Jowar
+JALGAON	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+JALGAON	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+JALGAON	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+JALGAON	Summer	Moderate	0	0	0	1	1	1	0	Maize
+JALGAON	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+JALGAON	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+JALGAON	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+JALNA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+JALNA	Kharif	Low	1	1	1	1	1	1	0	Bajra
+JALNA	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+JALNA	Kharif	High	0	0	0	0	1	0	0	Cotton
+JALNA	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+JALNA	Kharif	Low	0	0	0	0	1	1	1	Jowar
+JALNA	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+JALNA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+JALNA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+JALNA	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+JALNA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+JALNA	Rabi	Low	0	0	0	0	1	1	1	Jowar
+JALNA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+JALNA	Summer	Moderate	0	0	0	1	1	1	0	Maize
+JALNA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+JALNA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+JALNA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+KOLHAPUR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+KOLHAPUR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+KOLHAPUR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+KOLHAPUR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+KOLHAPUR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+KOLHAPUR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+KOLHAPUR	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+KOLHAPUR	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+KOLHAPUR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+KOLHAPUR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+KOLHAPUR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+KOLHAPUR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+KOLHAPUR	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+KOLHAPUR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+KOLHAPUR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+KOLHAPUR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+KOLHAPUR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+KOLHAPUR	Summer	Moderate	0	0	0	1	1	0	0	Rice
+KOLHAPUR	Summer	Very High	0	0	0	0	1	1	1	Sunflower
+KOLHAPUR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+KOLHAPUR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+KOLHAPUR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+LATUR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+LATUR	Kharif	Low	1	1	1	1	1	1	0	Bajra
+LATUR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+LATUR	Kharif	High	0	0	0	0	1	0	0	Cotton
+LATUR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+LATUR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+LATUR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+LATUR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+LATUR	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+LATUR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+LATUR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+LATUR	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+LATUR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+LATUR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+LATUR	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+LATUR	Rabi	High	0	0	0	1	1	0	0	Safflower
+LATUR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+LATUR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+LATUR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+LATUR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+LATUR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+LATUR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+NAGPUR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+NAGPUR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+NAGPUR	Kharif	High	0	0	0	0	1	0	0	Cotton
+NAGPUR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+NAGPUR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+NAGPUR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+NAGPUR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+NAGPUR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+NAGPUR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+NAGPUR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+NAGPUR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+NAGPUR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+NAGPUR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+NAGPUR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+NAGPUR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+NAGPUR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+NAGPUR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+NAGPUR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDED	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+NANDED	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+NANDED	Kharif	High	0	0	0	0	1	0	0	Cotton
+NANDED	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+NANDED	Kharif	Low	0	0	0	0	1	1	1	Jowar
+NANDED	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+NANDED	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+NANDED	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+NANDED	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+NANDED	Kharif	High	0	0	0	1	1	0	0	Soyabean
+NANDED	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+NANDED	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+NANDED	Rabi	Low	0	0	0	0	1	1	1	Jowar
+NANDED	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+NANDED	Rabi	High	0	0	0	1	1	0	0	Safflower
+NANDED	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+NANDED	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+NANDED	Summer	Moderate	0	0	0	1	1	1	0	Maize
+NANDED	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDED	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDED	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDURBAR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+NANDURBAR	Kharif	Low	1	1	1	1	1	1	0	Bajra
+NANDURBAR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+NANDURBAR	Kharif	High	0	0	0	0	1	0	0	Cotton
+NANDURBAR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+NANDURBAR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+NANDURBAR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+NANDURBAR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+NANDURBAR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+NANDURBAR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+NANDURBAR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+NANDURBAR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+NANDURBAR	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+NANDURBAR	Rabi	High	0	0	0	1	1	0	0	Safflower
+NANDURBAR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+NANDURBAR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+NANDURBAR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+NANDURBAR	Summer	Very High	0	0	0	0	1	1	1	Sunflower
+NANDURBAR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDURBAR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+NANDURBAR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+NASHIK	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+NASHIK	Kharif	Low	1	1	1	1	1	1	0	Bajra
+NASHIK	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+NASHIK	Kharif	High	0	0	0	0	1	0	0	Cotton
+NASHIK	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+NASHIK	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+NASHIK	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+NASHIK	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+NASHIK	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+NASHIK	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+NASHIK	Kharif	High	0	0	0	1	1	0	0	Soyabean
+NASHIK	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+NASHIK	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+NASHIK	Rabi	Low	0	0	0	0	1	1	1	Jowar
+NASHIK	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+NASHIK	Rabi	High	0	0	0	1	1	0	0	Safflower
+NASHIK	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+NASHIK	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+NASHIK	Summer	Moderate	0	0	0	1	1	1	0	Maize
+NASHIK	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+NASHIK	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+NASHIK	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+OSMANABAD	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+OSMANABAD	Kharif	Low	1	1	1	1	1	1	0	Bajra
+OSMANABAD	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+OSMANABAD	Kharif	High	0	0	0	0	1	0	0	Cotton
+OSMANABAD	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+OSMANABAD	Kharif	Low	0	0	0	0	1	1	1	Jowar
+OSMANABAD	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+OSMANABAD	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+OSMANABAD	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+OSMANABAD	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+OSMANABAD	Kharif	High	0	0	0	1	1	0	0	Soyabean
+OSMANABAD	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+OSMANABAD	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+OSMANABAD	Rabi	Low	0	0	0	0	1	1	1	Jowar
+OSMANABAD	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+OSMANABAD	Rabi	High	0	0	0	1	1	0	0	Safflower
+OSMANABAD	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+OSMANABAD	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+OSMANABAD	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+OSMANABAD	Summer	Moderate	0	0	0	1	1	1	0	Maize
+OSMANABAD	Summer	Very High	0	0	0	0	1	1	1	Sunflower
+OSMANABAD	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+OSMANABAD	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+OSMANABAD	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+PALGHAR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+PALGHAR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+PALGHAR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+PALGHAR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+PALGHAR	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+PALGHAR	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+PALGHAR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+PALGHAR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+PALGHAR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+PARBHANI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+PARBHANI	Kharif	Low	1	1	1	1	1	1	0	Bajra
+PARBHANI	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+PARBHANI	Kharif	High	0	0	0	0	1	0	0	Cotton
+PARBHANI	Kharif	Low	0	0	0	0	1	1	1	Jowar
+PARBHANI	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+PARBHANI	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+PARBHANI	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+PARBHANI	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+PARBHANI	Kharif	High	0	0	0	1	1	0	0	Soyabean
+PARBHANI	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+PARBHANI	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+PARBHANI	Rabi	Low	0	0	0	0	1	1	1	Jowar
+PARBHANI	Rabi	High	0	0	0	1	1	0	0	Safflower
+PARBHANI	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+PARBHANI	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+PARBHANI	Summer	Moderate	0	0	0	1	1	1	0	Maize
+PARBHANI	Summer	Very High	0	0	0	0	1	1	1	Sunflower
+PARBHANI	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+PARBHANI	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+PARBHANI	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+PUNE	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+PUNE	Kharif	Low	1	1	1	1	1	1	0	Bajra
+PUNE	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+PUNE	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+PUNE	Kharif	Low	0	0	0	0	1	1	1	Jowar
+PUNE	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+PUNE	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+PUNE	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+PUNE	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+PUNE	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+PUNE	Kharif	High	0	0	0	1	1	0	0	Soyabean
+PUNE	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+PUNE	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+PUNE	Rabi	Low	0	0	0	0	1	1	1	Jowar
+PUNE	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+PUNE	Rabi	High	0	0	0	1	1	0	0	Safflower
+PUNE	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+PUNE	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+PUNE	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+PUNE	Summer	Moderate	0	0	0	1	1	1	0	Maize
+PUNE	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+PUNE	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+PUNE	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+RAIGAD	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+RAIGAD	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+RAIGAD	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+RAIGAD	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+RAIGAD	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+RAIGAD	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+RAIGAD	Summer	Moderate	0	0	0	1	1	0	0	Rice
+RATNAGIRI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+RATNAGIRI	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+RATNAGIRI	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+RATNAGIRI	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+RATNAGIRI	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+SANGLI	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+SANGLI	Kharif	Low	1	1	1	1	1	1	0	Bajra
+SANGLI	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+SANGLI	Kharif	High	0	0	0	0	1	0	0	Cotton
+SANGLI	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+SANGLI	Kharif	Low	0	0	0	0	1	1	1	Jowar
+SANGLI	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+SANGLI	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+SANGLI	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+SANGLI	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+SANGLI	Kharif	High	0	0	0	1	1	0	0	Soyabean
+SANGLI	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+SANGLI	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+SANGLI	Rabi	Low	0	0	0	0	1	1	1	Jowar
+SANGLI	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+SANGLI	Rabi	High	0	0	0	1	1	0	0	Safflower
+SANGLI	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+SANGLI	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+SANGLI	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+SANGLI	Summer	Moderate	0	0	0	1	1	1	0	Maize
+SANGLI	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+SANGLI	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+SANGLI	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+SATARA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+SATARA	Kharif	Low	1	1	1	1	1	1	0	Bajra
+SATARA	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+SATARA	Kharif	High	0	0	0	0	1	0	0	Cotton
+SATARA	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+SATARA	Kharif	Low	0	0	0	0	1	1	1	Jowar
+SATARA	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+SATARA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+SATARA	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+SATARA	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+SATARA	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+SATARA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+SATARA	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+SATARA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+SATARA	Rabi	Low	0	0	0	0	1	1	1	Jowar
+SATARA	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+SATARA	Rabi	High	0	0	0	1	1	0	0	Safflower
+SATARA	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+SATARA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+SATARA	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+SATARA	Summer	Moderate	0	0	0	1	1	1	0	Maize
+SATARA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+SATARA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+SATARA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+SINDHUDURG	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+SINDHUDURG	Kharif	Very Low	0	0	0	0	0	1	0	Groundnut
+SINDHUDURG	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+SINDHUDURG	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+SINDHUDURG	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+SINDHUDURG	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+SINDHUDURG	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+SINDHUDURG	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+SINDHUDURG	Summer	Moderate	0	0	0	1	1	0	0	Rice
+SOLAPUR	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+SOLAPUR	Kharif	Low	1	1	1	1	1	1	0	Bajra
+SOLAPUR	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+SOLAPUR	Kharif	High	0	0	0	0	1	0	0	Cotton
+SOLAPUR	Kharif	Moderate	0	0	0	0	0	1	0	Groundnut
+SOLAPUR	Kharif	Low	0	0	0	0	1	1	1	Jowar
+SOLAPUR	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+SOLAPUR	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+SOLAPUR	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+SOLAPUR	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+SOLAPUR	Kharif	High	0	0	0	1	1	0	0	Soyabean
+SOLAPUR	Kharif	Very High	0	0	0	0	1	1	1	Sunflower
+SOLAPUR	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+SOLAPUR	Rabi	Low	0	0	0	0	1	1	1	Jowar
+SOLAPUR	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+SOLAPUR	Rabi	High	0	0	0	1	1	0	0	Safflower
+SOLAPUR	Rabi	Very High	0	0	0	0	1	1	1	Sunflower
+SOLAPUR	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+SOLAPUR	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+SOLAPUR	Summer	Moderate	0	0	0	1	1	1	0	Maize
+SOLAPUR	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+SOLAPUR	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+SOLAPUR	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+THANE	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+THANE	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+THANE	Kharif	Very Low	0	0	1	1	1	1	1	Niger seed
+THANE	Kharif	Very Low	0	1	1	1	0	0	0	Ragi
+THANE	Kharif	Moderate	0	0	0	1	1	0	0	Rice
+THANE	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+THANE	Summer	Moderate	0	0	0	1	1	0	0	Rice
+WARDHA	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+WARDHA	Kharif	High	0	0	0	0	1	0	0	Cotton
+WARDHA	Kharif	Very Low	0	0	0	0	0	1	0	Groundnut
+WARDHA	Kharif	Low	0	0	0	0	1	1	1	Jowar
+WARDHA	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+WARDHA	Kharif	High	0	0	0	1	1	0	0	Soyabean
+WARDHA	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+WARDHA	Rabi	Low	0	0	0	0	1	1	1	Jowar
+WARDHA	Rabi	High	0	0	0	1	1	0	0	Safflower
+WARDHA	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+WARDHA	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+WARDHA	Summer	Moderate	0	0	0	1	1	1	0	Maize
+WARDHA	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+WARDHA	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+WARDHA	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+WASHIM	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+WASHIM	Kharif	Low	1	1	1	1	1	1	0	Bajra
+WASHIM	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+WASHIM	Kharif	High	0	0	0	0	1	0	0	Cotton
+WASHIM	Kharif	Low	0	0	0	0	1	1	1	Jowar
+WASHIM	Kharif	Moderate	0	0	0	1	1	1	0	Maize
+WASHIM	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+WASHIM	Kharif	High	0	0	0	1	1	0	0	Soyabean
+WASHIM	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+WASHIM	Rabi	Low	0	0	0	0	1	1	1	Jowar
+WASHIM	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+WASHIM	Rabi	High	0	0	0	1	1	0	0	Safflower
+WASHIM	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+WASHIM	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+WASHIM	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+WASHIM	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+WASHIM	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
+YAVATMAL	Kharif	Low	0	0	0	0	0	1	1	Arhar/Tur
+YAVATMAL	Kharif	Low	1	1	1	1	1	1	0	Bajra
+YAVATMAL	Kharif	Very Low	0	0	0	1	1	0	0	Castor seed
+YAVATMAL	Kharif	High	0	0	0	0	1	0	0	Cotton
+YAVATMAL	Kharif	Low	0	0	0	0	1	1	1	Jowar
+YAVATMAL	Kharif	Low	0	0	0	0	0	1	1	Moong(Green Gram)
+YAVATMAL	Kharif	High	0	0	0	1	1	0	0	Soyabean
+YAVATMAL	Rabi	Very Low	0	0	0	0	0	1	1	Gram
+YAVATMAL	Rabi	Low	0	0	0	0	1	1	1	Jowar
+YAVATMAL	Rabi	Moderate	0	0	0	1	1	1	0	Maize
+YAVATMAL	Rabi	Moderate	0	0	0	1	1	0	0	Wheat
+YAVATMAL	Summer	Moderate	0	0	0	0	0	1	0	Groundnut
+YAVATMAL	Kharif	Very High	0	0	0	0	1	1	0	Sugarcane
+YAVATMAL	Rabi	Very High	0	0	0	0	1	1	0	Sugarcane
+YAVATMAL	Summer	Very High	0	0	0	0	1	1	0	Sugarcane
