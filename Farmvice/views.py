@@ -12,6 +12,8 @@ from sklearn.tree import ExtraTreeClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn import tree
 #
+import Orange
+import goslate
 
 # Create your views here.
 from django.http import HttpResponse
@@ -42,7 +44,7 @@ def predict(request):
     
     pesticide="wxyz"
 
-    return render(request,'predict.html',{'nitrogen':nitrogen, 'phosphorus':phosphorus, 'potassium':potassium, 'pH_value':pH_value, 'season':season, 'district':district, 'soil_quality':soil_quality, 'crop':crop, 'pesticide':pesticide})
+    return render(request,'predict.html',{'nitrogen':nitrogen, 'phosphorus':phosphorus, 'potassium':potassium, 'pH_value':pH_value, 'season':season, 'district':translate(district), 'soil_quality':translate(soil_quality), 'crop':translate(crop), 'pesticide':pesticide})
 
 def soil_quality_fun(nitrogen,phosphorus,potassium):
     df=pd.read_csv("npk.csv")
@@ -56,7 +58,6 @@ def soil_quality_fun(nitrogen,phosphorus,potassium):
     return soil_quality[0]
 
 def crop_predict(district,season,pH_value,soil_quality):
-    import Orange
 
     data = Orange.data.Table("crop.tab")
 
@@ -107,3 +108,8 @@ def ph_fun(pH_value):
         input_ph_7_75 = 1
 
     return input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75
+
+def translate(text):
+    gs = goslate.Goslate()
+    translatedtext = gs.translate(text,'mr')
+    return translatedtext
