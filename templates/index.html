@@ -25,19 +25,19 @@
       <div class="row">
 
         <h4>Nitrogen:</h4>
-          <input type="text" class="form-control" name="nitrogen" aria-describedby="Nitrogen_Help" required>
+          <input type="number" min="0" step="0.01" class="form-control" name="nitrogen" aria-describedby="Nitrogen_Help" required>
           <small id="Nitrogen_Help" class="form-text text-muted">Enter tested soil's Nitrogen value</small>
 
         <h4>Phosphorus:</h4>
-          <input type="text" class="form-control" name="phosphorus" aria-describedby="Phosphorous_Help" required>
+          <input type="number" min="0" step="0.01" class="form-control" name="phosphorus" aria-describedby="Phosphorous_Help" required>
           <small id="Phosphorous_Help" class="form-text text-muted">Enter tested soil's Phosphorous value</small>
 
         <h4>Potassium:</h4>
-          <input type="text" class="form-control" name="potassium" aria-describedby="Potassium_Help" required>
+          <input type="number" min="0" step="0.01" class="form-control" name="potassium" aria-describedby="Potassium_Help" required>
           <small id="Phosphorous_Help" class="form-text text-muted">Enter tested soil's Potassium value</small>
 
         <h4>PH Value</h4>
-          <input type="text" class="form-control" name="pH_value" aria-describedby="pH_value_Help" required>
+          <input type="number" min="4" max="7.5" step="0.01" class="form-control" name="pH_value" aria-describedby="pH_value_Help" required>
           <small id="pH_value_Help" class="form-text text-muted">Enter tested soil's pH_value value</small>
 
       </div>
