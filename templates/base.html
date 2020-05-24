@@ -1,16 +1,33 @@
-<!doctype html>
+{% load static %}
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My first app</title>
+  <meta charset="UTF-8">
+  <title>Farmvice</title>
+  <link rel="stylesheet" href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css' %}">
+  <link rel='stylesheet'
+    href="{% static 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static './style.css' %}">
+
 </head>
-<body bgcolor="orange">
+
+<body>
+  <!-- partial:index.partial.html -->
+  <link rel='shortcut icon' type='image/x-icon' href="{% static 'Farmvice_logo.ico' %}" />
+  <div class="container">
+    <img src="{% static 'Farmvice_logo.png' %}" alt="Farmvice" class="center">
+
     {% block content %}
 
     {% endblock %}
+    
+  </div>
+  <!-- partial -->
+  <script src="{% static 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js' %}"></script>
+  <script src="{% static './script.js' %}"></script>
 
 </body>
+
 </html>
