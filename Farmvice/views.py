@@ -68,16 +68,42 @@ def crop_predict(district,season,pH_value,soil_quality):
     input_district = district
     input_season = season
     input_soil_quality = soil_quality
-    input_ph_4_45 = 0
-    input_ph_45_5 = 0
-    input_ph_5_55 = 0
-    input_ph_55_6 = 1
-    input_ph_6_65 = 1
-    input_ph_65_7 = 0
-    input_ph_7_75 = 0
+    input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75 = ph_fun(pH_value)
 
     input_data=[[input_district,input_season,input_soil_quality,input_ph_4_45,input_ph_45_5,input_ph_5_55,input_ph_55_6,input_ph_6_65,input_ph_65_7,input_ph_7_75]]
 
     crop = c_values[int(cn2_classifier(input_data))]
 
     return crop
+
+def ph_fun(pH_value):
+    input_ph_4_45 = 0
+    input_ph_45_5 = 0
+    input_ph_5_55 = 0
+    input_ph_55_6 = 0
+    input_ph_6_65 = 0
+    input_ph_65_7 = 0
+    input_ph_7_75 = 0
+
+    if pH_value < 4.5 :
+        input_ph_4_45 = 1
+
+    elif pH_value < 5 :
+        input_ph_45_5 = 1
+
+    elif pH_value < 5.5 :
+        input_ph_5_55 = 1
+
+    elif pH_value < 6 :
+        input_ph_55_6 = 1
+
+    elif pH_value < 6.5 :
+        input_ph_6_65 = 1
+
+    elif pH_value < 7 :
+        input_ph_65_7 = 1
+
+    else :
+        input_ph_7_75 = 1
+
+    return input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75
