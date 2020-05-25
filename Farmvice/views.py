@@ -14,6 +14,7 @@ from sklearn import tree
 #
 import Orange
 import goslate
+import time
 
 # Create your views here.
 from django.http import HttpResponse
@@ -31,6 +32,7 @@ class Prediction_class:
         self.pH_value = pH_value
         self.soil_quality = ""
         self.crop = ""
+        #self.advice = ""
 
     def soil_quality_fun(self,nitrogen,phosphorus,potassium):
         df=pd.read_csv("npk.csv")
@@ -96,10 +98,22 @@ class Prediction_class:
 
         return input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75
 
-    def translate(self,text):
+    def translate(self):
+        #text = "Soil quality is " + self.soil_quality + ". You should sow "+ self.crop + "."
         gs = goslate.Goslate()
-        translatedtext = gs.translate(text,'mr')
-        return translatedtext
+        #translatedtext = gs.translate(text,'mr')
+        #self.advice = translatedtext
+        #self.advice = text
+        text1 = self.soil_quality
+        time.sleep(15)
+        translatedtext1 = gs.translate(text1,'mr')
+        time.sleep(15)
+        text2 = self.crop
+        time.sleep(15)
+        translatedtext2 = gs.translate(text2,'mr')
+        time.sleep(15)
+        self.advice = "मातीची गुणवत्ता "+translatedtext1+" आहे. आपण "+translatedtext2+" पेरले पाहिजे."
+        time.sleep(15)
 
 #####---------------------------------------------------------------
 
@@ -125,10 +139,14 @@ def predict(request):
     #starts here
     prediction_object.crop_predict(district,season,pH_value,soil_quality)
     #ends here
-    
-    pesticide="wxyz"
 
-    return render(request,'predict.html',{'prediction_object':prediction_object, 'pesticide':pesticide})
+    #translate
+    time.sleep(15)
+    prediction_object.translate()
+    time.sleep(15)
+    #pesticide="wxyz"
+
+    return render(request,'predict.html',{'prediction_object':prediction_object})
 
 
 
