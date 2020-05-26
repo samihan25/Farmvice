@@ -2,10 +2,10 @@
 
 {% block content %}
 
-    <h4>
+    <h4>Advice:</h4>
+    <h1> {{prediction_object.advice}} </h1>
 
-      Advice: {{prediction_object.advice}}
-      <br><br>
+    <h4>
       Nitrogen: {{prediction_object.nitrogen}}
       <br><br>
       Phosphorus: {{prediction_object.phosphorus}}
@@ -22,7 +22,20 @@
       <br><br>
       Suggested crop: {{prediction_object.crop}}
       <br><br>
-      Suggested Pesticide: {{pesticide}}
+      Suggested Pesticides: 
+      <br>
+      <table style="width:100%" border="1">
+        <tr>
+          <th>Pesticide</th>
+          <th>Dieses</th>
+        </tr>
+        {% for row in prediction_object.pesticides %}
+          <tr>
+            <td>{{row}}</td>
+            <td>{{row}}</td>
+          </tr>
+        {% endfor %}
+      </table>
 
     </h4>
 

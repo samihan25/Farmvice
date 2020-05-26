@@ -15,12 +15,45 @@ from sklearn import tree
 import Orange
 import goslate
 import time
+from sklearn.externals import joblib
+import csv
 
 # Create your views here.
 from django.http import HttpResponse
 
 def index(request):
     return render(request, 'index.html')
+
+def npk_train_model(request):
+    start_time = time.time()
+    df=pd.read_csv("npk.csv")
+
+    X = df.iloc[:,:-1]
+    Y = df.iloc[:,3]
+    clf = tree.DecisionTreeClassifier()
+    clf = clf.fit(X, Y)
+    joblib.dump(clf, 'npk_model.pkl')
+    stop_time = time.time()
+
+    msg = "Soil Quality prediction model is trained. It uses Decision tree classifier."
+    time_required = stop_time - start_time
+
+    return render(request, 'model_train.html',{'msg':msg,'time_required':time_required})
+
+def crop_train_model(request):
+    start_time = time.time()
+    data = Orange.data.Table("crop.tab")
+
+    cn2_learner = Orange.classification.rules.CN2Learner()
+    cn2_classifier = cn2_learner(data)
+
+    joblib.dump(cn2_classifier, 'crop_model.pkl')
+    stop_time = time.time()
+
+    msg = "Crop prediction model is trained. It uses CN2 classifier."
+    time_required = stop_time - start_time
+
+    return render(request, 'model_train.html',{'msg':msg,'time_required':time_required})
 
 class Prediction_class:
     def __init__(self,nitrogen,phosphorus,potassium,district,season,pH_value):
@@ -32,15 +65,10 @@ class Prediction_class:
         self.pH_value = pH_value
         self.soil_quality = ""
         self.crop = ""
-        #self.advice = ""
+        self.advice = "advice will print here"
 
     def soil_quality_fun(self,nitrogen,phosphorus,potassium):
-        df=pd.read_csv("npk.csv")
-
-        X = df.iloc[:,:-1]
-        Y = df.iloc[:,3]
-        clf = tree.DecisionTreeClassifier()
-        clf = clf.fit(X, Y)
+        clf = joblib.load('npk_model.pkl')
 
         soil_quality=clf.predict([[nitrogen,phosphorus,potassium]])
         self.soil_quality = soil_quality[0]
@@ -48,12 +76,10 @@ class Prediction_class:
         return self.soil_quality
 
     def crop_predict(self,district,season,pH_value,soil_quality):
-
         data = Orange.data.Table("crop.tab")
 
-        cn2_learner = Orange.classification.rules.CN2Learner()
-        cn2_classifier = cn2_learner(data)
-
+        cn2_classifier = joblib.load('crop_model.pkl')
+        
         c_values = data.domain.class_var.values
 
         input_district = district
@@ -98,6 +124,9 @@ class Prediction_class:
 
         return input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75
 
+    def pesticides_fun(self):
+        self.pesticides = pd.read_csv(self.crop + ".csv")
+
     def translate(self):
         #text = "Soil quality is " + self.soil_quality + ". You should sow "+ self.crop + "."
         gs = goslate.Goslate()
@@ -105,15 +134,16 @@ class Prediction_class:
         #self.advice = translatedtext
         #self.advice = text
         text1 = self.soil_quality
-        time.sleep(15)
+        #time.sleep(15)
         translatedtext1 = gs.translate(text1,'mr')
-        time.sleep(15)
+        time.sleep(0.2)
         text2 = self.crop
-        time.sleep(15)
+        #time.sleep(15)
         translatedtext2 = gs.translate(text2,'mr')
-        time.sleep(15)
+        #time.sleep(15)
         self.advice = "मातीची गुणवत्ता "+translatedtext1+" आहे. आपण "+translatedtext2+" पेरले पाहिजे."
-        time.sleep(15)
+        #time.sleep(15)
+
 
 #####---------------------------------------------------------------
 
@@ -128,23 +158,18 @@ def predict(request):
 
     prediction_object = Prediction_class(nitrogen,phosphorus,potassium,district,season,pH_value)
 
-    #insert machine learning code here
-
-    #n,p,k soil quality prediction code
-    #start here
+    #n,p,k soil quality prediction
     soil_quality = prediction_object.soil_quality_fun(nitrogen,phosphorus,potassium)
-    #ends here
 
-    #crop prediction code
-    #starts here
+    #crop prediction
     prediction_object.crop_predict(district,season,pH_value,soil_quality)
-    #ends here
 
     #translate
-    time.sleep(15)
-    prediction_object.translate()
-    time.sleep(15)
-    #pesticide="wxyz"
+    #time.sleep(15)
+    #prediction_object.translate()
+    #time.sleep(15)
+
+    prediction_object.pesticides_fun()
 
     return render(request,'predict.html',{'prediction_object':prediction_object})
 
