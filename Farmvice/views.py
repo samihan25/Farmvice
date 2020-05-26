@@ -125,7 +125,10 @@ class Prediction_class:
         return input_ph_4_45, input_ph_45_5, input_ph_5_55, input_ph_55_6, input_ph_6_65, input_ph_65_7, input_ph_7_75
 
     def pesticides_fun(self):
-        self.pesticides = pd.read_csv(self.crop + ".csv")
+        self.pesticides = np.array(pd.read_csv("pesticides/" + self.crop + ".csv"))
+
+    def insecticides_fun(self):
+        self.insecticides = np.array(pd.read_csv("insecticides/" + self.crop + ".csv"))
 
     def translate(self):
         #text = "Soil quality is " + self.soil_quality + ". You should sow "+ self.crop + "."
@@ -170,6 +173,8 @@ def predict(request):
     #time.sleep(15)
 
     prediction_object.pesticides_fun()
+
+    prediction_object.insecticides_fun()
 
     return render(request,'predict.html',{'prediction_object':prediction_object})
 

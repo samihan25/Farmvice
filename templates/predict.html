@@ -22,8 +22,9 @@
       <br><br>
       Suggested crop: {{prediction_object.crop}}
       <br><br>
+      
       Suggested Pesticides: 
-      <br>
+      <br><br>
       <table style="width:100%" border="1">
         <tr>
           <th>Pesticide</th>
@@ -31,8 +32,26 @@
         </tr>
         {% for row in prediction_object.pesticides %}
           <tr>
-            <td>{{row}}</td>
-            <td>{{row}}</td>
+            {% for element in row %}
+              <td>{{element}}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </table>
+
+      <br><br>
+      Suggested Insecticides: 
+      <br><br>
+      <table style="width:100%" border="1">
+        <tr>
+          <th>Insecticide</th>
+          <th>Pests</th>
+        </tr>
+        {% for row in prediction_object.insecticides %}
+          <tr>
+            {% for element in row %}
+              <td>{{element}}</td>
+            {% endfor %}
           </tr>
         {% endfor %}
       </table>
