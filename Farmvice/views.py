@@ -137,7 +137,7 @@ class Prediction_class:
         #self.advice = translatedtext
         #self.advice = text
         text1 = self.soil_quality
-        #time.sleep(15)
+        time.sleep(0.2)
         translatedtext1 = gs.translate(text1,'mr')
         time.sleep(0.2)
         text2 = self.crop
@@ -169,7 +169,7 @@ def predict(request):
 
     #translate
     #time.sleep(15)
-    #prediction_object.translate()
+    prediction_object.translate()
     #time.sleep(15)
 
     prediction_object.pesticides_fun()
