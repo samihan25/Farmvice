@@ -8,3 +8,6 @@ Farmvice is a product designed for farmers. It takes inputs like pH of Soil, Nit
 git init
 
 git pull https://github.com/samihan25/Farmvice.git
+
+
+### Hit Counter  [![HitCount](http://hits.dwyl.com/samihan25/Farmvice.svg)](http://hits.dwyl.com/samihan25/Farmvice)
